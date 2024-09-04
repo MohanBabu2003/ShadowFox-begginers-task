@@ -47,8 +47,6 @@ class MobilePhone:
             print("Contacts:")
             for name, number in self.contacts.items():
                 print(f"{name}: {number}")
-
-# Example usage
 phone = MobilePhone("123-456-7890")
 phone.add_contact("Alice", "987-654-3210")
 phone.make_call("987-654-3210")
